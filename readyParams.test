@@ -1,0 +1,31 @@
+{
+	# Filename
+	NAME "Request #1"
+
+	OPERATION Get-Printer-Attributes
+	GROUP operation-attributes-tag
+	ATTR charset attributes-charset utf-8
+	ATTR language attributes-natural-language en
+	ATTR uri printer-uri $uri
+	ATTR keyword requested-attributes media-ready
+
+	STATUS successful-ok
+
+	DISPLAY media-ready
+}
+
+{
+	# Filename
+	NAME "Request #2"
+
+	OPERATION Get-Printer-Attributes
+	GROUP operation-attributes-tag
+	ATTR charset attributes-charset utf-8
+	ATTR language attributes-natural-language en
+	ATTR uri printer-uri $uri
+	ATTR keyword requested-attributes media-col-ready
+
+	STATUS successful-ok
+
+	DISPLAY media-col-ready
+}
