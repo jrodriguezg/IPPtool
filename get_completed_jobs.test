@@ -1,0 +1,22 @@
+# This includes any Job object whose state is:
+#   'completed'
+#   'canceled'
+#   'aborted'
+
+{
+	NAME "Get completed jobs"
+	OPERATION Get-Jobs
+	GROUP operation-attributes-tag
+
+	ATTR charset attributes-charset utf-8
+	ATTR naturalLanguage attributes-natural-language en
+	ATTR uri printer-uri $uri
+	ATTR keyword which-jobs completed
+	ATTR keyword requested-attributes all
+
+	STATUS successful-ok
+	STATUS successful-ok-ignored-or-substituted-attributes
+	STATUS client-error-attributes-or-values-not-supported
+
+	DISPLAY job-params,media-col
+}

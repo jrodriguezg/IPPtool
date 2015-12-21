@@ -1,0 +1,17 @@
+{
+	# Filename
+	NAME "Get printer make and model"
+
+	OPERATION Get-Printer-Attributes
+	GROUP operation-attributes-tag
+	ATTR charset attributes-charset utf-8
+	ATTR language attributes-natural-language en
+	ATTR uri printer-uri $uri
+	ATTR keyword requested-attributes printer-make-and-model,printer-name
+
+	STATUS successful-ok
+
+	DISPLAY printer-make-and-model
+	DISPLAY printer-name
+}
+

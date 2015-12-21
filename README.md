@@ -1,5 +1,5 @@
 #IPPtool
-This project is designed to gather some helpful ipptool commands.
+This project is designed to gather some helpful ipptool commands that allow you to check printer status.
 
 It also contains a simple bash script to simplify the usage of the ipptool command.
 

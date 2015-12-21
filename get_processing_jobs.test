@@ -1,0 +1,23 @@
+# This includes any Job object whose state is:
+#   'pending'
+#   'processing'
+#   'processing-stopped'
+#   'pending-held'
+{
+	NAME "Get processing jobs"
+	OPERATION Get-Jobs
+	GROUP operation-attributes-tag
+	ATTR charset attributes-charset utf-8
+	ATTR naturalLanguage attributes-natural-language en
+	ATTR uri printer-uri $uri
+	ATTR keyword requested-attributes all
+	ATTR keyword which-jobs processing
+	ATTR keyword requested-attributes job-params
+
+	DISPLAY media-col
+
+	STATUS successful-ok
+	#STATUS client-error-attributes-or-values-not-supported
+
+	DISPLAY job-params
+}
