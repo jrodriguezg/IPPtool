@@ -1,0 +1,14 @@
+{
+        NAME "Request to check margins supported"
+
+        OPERATION Get-Printer-Attributes
+        GROUP operation-attributes-tag
+        ATTR charset attributes-charset utf-8
+        ATTR language attributes-natural-language en
+        ATTR uri printer-uri $uri
+        ATTR keyword requested-attributes media-top-margin,media-left-margin,media-bottom-margin,media-right-margin,media-top-margin-supported,media-left-margin-supported,media-bottom-margin-supported,media-right-margin-supported
+
+        STATUS successful-ok
+
+        DISPLAY media-supported
+}
