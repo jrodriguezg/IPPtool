@@ -13,10 +13,10 @@
 	ATTR uri printer-uri $uri
 	ATTR keyword which-jobs completed
 	ATTR keyword requested-attributes all
+	ATTR name requesting-user-name $REQ_USER
 
 	STATUS successful-ok
 	STATUS successful-ok-ignored-or-substituted-attributes
 	STATUS client-error-attributes-or-values-not-supported
 
-	DISPLAY job-params,media-col
 }

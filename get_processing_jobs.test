@@ -12,12 +12,9 @@
 	ATTR uri printer-uri $uri
 	ATTR keyword requested-attributes all
 	ATTR keyword which-jobs processing
-	ATTR keyword requested-attributes job-params
-
-	DISPLAY media-col
+	ATTR name requesting-user-name ePrint
 
 	STATUS successful-ok
-	#STATUS client-error-attributes-or-values-not-supported
 
 	DISPLAY job-params
 }
