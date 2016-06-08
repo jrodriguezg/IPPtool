@@ -1,0 +1,15 @@
+{
+        NAME "Request for printer-strings-uri record"
+
+        OPERATION Get-Printer-Attributes
+        GROUP operation-attributes-tag
+        ATTR charset attributes-charset utf-8
+        ATTR language attributes-natural-language ca
+        ATTR uri printer-uri $uri
+        ATTR keyword requested-attributes printer-strings-languages-supported,printer-strings-uri
+
+        STATUS successful-ok
+
+        DISPLAY printer-strings-languages-supported
+	DISPLAY printer-strings-uri
+}
