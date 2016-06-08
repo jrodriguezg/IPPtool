@@ -1,0 +1,14 @@
+{
+        NAME "Request for media-supported record"
+
+        OPERATION Get-Printer-Attributes
+        GROUP operation-attributes-tag
+        ATTR charset attributes-charset utf-8
+        ATTR language attributes-natural-language en
+        ATTR uri printer-uri $uri
+        ATTR keyword requested-attributes jpeg-k-octets-supported,jpeg-x-dimension-supported,jpeg-y-dimension-supported
+	
+	STATUS successful-ok
+
+        DISPLAY jpeg-k-octets-supported,jpeg-x-dimension-supported,jpeg-y-dimension-supported
+}
