@@ -1,0 +1,18 @@
+{
+	# GET JOB ATTRIBUTES
+	NAME "Get Attributes of Job"
+
+	OPERATION Get-Job-Attributes
+	GROUP operation-attributes-tag
+      	ATTR charset attributes-charset utf-8
+      	ATTR language attributes-natural-language en
+      	ATTR uri printer-uri $uri
+     	ATTR integer job-id 61
+      	ATTR name requesting-user-name $REQ_USER
+	ATTR keyword requested-attributes media
+
+	# The response to expect
+     	STATUS successful-ok
+
+	DISPLAY media
+}
