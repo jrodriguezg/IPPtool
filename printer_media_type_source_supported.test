@@ -6,9 +6,10 @@
         ATTR charset attributes-charset utf-8
         ATTR language attributes-natural-language en
         ATTR uri printer-uri $uri
-        ATTR keyword requested-attributes media-type-supported
+        ATTR keyword requested-attributes media-type-supported,media-source-supported
 
         STATUS successful-ok
 
         DISPLAY media-supported
+	DISPLAY media-source-supported
 }
