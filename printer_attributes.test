@@ -1,0 +1,16 @@
+{
+	NAME "Request all printer attributes"
+
+	OPERATION Get-Printer-Attributes
+	GROUP operation-attributes-tag
+	ATTR charset attributes-charset utf-8
+	ATTR language attributes-natural-language en
+	ATTR uri printer-uri $uri
+	ATTR keyword requested-attributes all
+
+	STATUS successful-ok
+
+
+	DISPLAY requested-attributes
+}
+

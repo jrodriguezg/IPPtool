@@ -1,0 +1,16 @@
+{
+	NAME "Request to check printer operations supported"
+
+	OPERATION Get-Printer-Attributes
+	GROUP operation-attributes-tag
+	ATTR charset attributes-charset utf-8
+	ATTR language attributes-natural-language en
+	ATTR uri printer-uri $uri
+	ATTR keyword requested-attributes identify-actions-supported,identify-actions-default
+
+	STATUS successful-ok
+
+	DISPLAY identify-actions-supported
+	DISPLAY identify-actions-default
+}
+

@@ -1,0 +1,16 @@
+{
+	NAME "Request to check PDF support"
+
+	OPERATION Get-Printer-Attributes
+	GROUP operation-attributes-tag
+	ATTR charset attributes-charset utf-8
+	ATTR language attributes-natural-language en
+	ATTR uri printer-uri $uri
+	ATTR keyword requested-attributes pdf-versions-supported,pdf-k-octets-supported
+
+	STATUS successful-ok
+
+
+	DISPLAY pdf-versions-supported,pdf-k-octets-supported
+}
+
