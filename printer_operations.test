@@ -6,11 +6,10 @@
 	ATTR charset attributes-charset utf-8
 	ATTR language attributes-natural-language en
 	ATTR uri printer-uri $uri
-	ATTR keyword requested-attributes identify-actions-supported,identify-actions-default
+	ATTR keyword requested-attributes operations-supported
 
 	STATUS successful-ok
 
-	DISPLAY identify-actions-supported
-	DISPLAY identify-actions-default
+	DISPLAY operations-supported
 }
 
